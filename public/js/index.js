@@ -3,9 +3,9 @@ var animation = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: 'data.json'
+  path: 'house.json'
 })
 
 setTimeout(function () {
   animation.play();
-}, 2000);
+}, 1000);
